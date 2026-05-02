@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 430" width="860" height="430">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="860" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#070e1c"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="dimLeft" x1="0" y1="0" x2="430" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.15"/>
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="645" cy="240" r="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="redGlow" cx="215" cy="200" r="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#450a0a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#450a0a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background layers -->
+  <rect width="860" height="430" fill="url(#bg)"/>
+  <rect width="860" height="430" fill="url(#redGlow)"/>
+  <rect width="860" height="430" fill="url(#blueGlow)"/>
+  <rect width="430" height="430" fill="url(#dimLeft)"/>
+
+  <!-- Top accent line -->
+  <rect width="860" height="2" fill="#2563eb" opacity="0.7"/>
+
+  <!-- ======================== TITLE ======================== -->
+  <text x="430" y="38" text-anchor="middle"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="26" font-weight="800" fill="#f1f5f9" letter-spacing="-0.5">
+    We Fixed Our Own Front Door
+  </text>
+  <text x="430" y="61" text-anchor="middle"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="12" font-weight="400" fill="#60a5fa" letter-spacing="0.5">
+    A B2B Lead-Qualifying Contact Form &#8212; Analytical Ants
+  </text>
+  <line x1="60" y1="74" x2="800" y2="74" stroke="#1e3a5f" stroke-width="0.75"/>
+
+  <!-- ====================== SECTION LABELS ====================== -->
+  <text x="215" y="95" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="9" font-weight="700" fill="#475569" letter-spacing="4.5">BEFORE</text>
+  <text x="645" y="95" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="9" font-weight="700" fill="#3b82f6" letter-spacing="4.5">AFTER</text>
+
+  <!-- ====================== DOOR DIVIDER ====================== -->
+  <line x1="428" y1="82" x2="428" y2="394" stroke="#1d4ed8" stroke-width="1.2" opacity="0.65"/>
+  <line x1="432" y1="82" x2="432" y2="394" stroke="#1d4ed8" stroke-width="1.2" opacity="0.65"/>
+  <!-- Door handle -->
+  <circle cx="430" cy="250" r="6.5" fill="#0f172a" stroke="#2563eb" stroke-width="1.5"/>
+  <circle cx="430" cy="250" r="2.5" fill="#3b82f6"/>
+
+  <!-- ====================== LEFT: BEFORE ====================== -->
+
+  <!-- Envelope body -->
+  <rect x="112" y="122" width="204" height="136" rx="5"
+        fill="#0a1827" stroke="#1e3040" stroke-width="1.5"/>
+  <!-- Envelope V-flap -->
+  <polyline points="112,122 214,196 316,122"
+            fill="none" stroke="#1e3040" stroke-width="1.5"/>
+  <!-- Bottom fold creases -->
+  <line x1="112" y1="258" x2="167" y2="212" stroke="#162030" stroke-width="1.2"/>
+  <line x1="316" y1="258" x2="261" y2="212" stroke="#162030" stroke-width="1.2"/>
+  <!-- mailto: label -->
+  <text x="214" y="244" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="19" font-weight="700" fill="#2d4a63">mailto:</text>
+
+  <!-- Broken indicator (circle + slash) -->
+  <circle cx="214" cy="190" r="30" fill="none" stroke="#7f1d1d" stroke-width="1.5" opacity="0.5"/>
+  <line x1="193" y1="169" x2="235" y2="211" stroke="#7f1d1d" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Descriptor text -->
+  <text x="214" y="281" text-anchor="middle"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#334155">
+    Opens Outlook. If you have it installed.
+  </text>
+  <text x="214" y="298" text-anchor="middle"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="10.5" fill="#253040">
+    No structure. No qualification. Nothing.
+  </text>
+
+  <!-- Unqualified badge -->
+  <rect x="164" y="311" width="100" height="15" rx="7"
+        fill="#1c0808" stroke="#7f1d1d" stroke-width="0.75"/>
+  <text x="214" y="322.5" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="8.5" font-weight="600" fill="#f87171">Unqualified</text>
+
+  <!-- ====================== RIGHT: AFTER ====================== -->
+
+  <!-- Form container -->
+  <rect x="484" y="107" width="258" height="260" rx="9"
+        fill="#0c1929" stroke="#1e3a8a" stroke-width="1.5"/>
+
+  <!-- Header bar -->
+  <rect x="484" y="107" width="258" height="30" rx="9" fill="#1e3a8a"/>
+  <rect x="484" y="122" width="258" height="15" fill="#1e3a8a"/>
+  <text x="613" y="127" text-anchor="middle"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="10.5" font-weight="600" fill="#bfdbfe">Contact Analytical Ants</text>
+
+  <!-- Field 1: Industry (highlighted — active field) -->
+  <text x="498" y="152" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="7.5" font-weight="700" fill="#64748b" letter-spacing="0.8">INDUSTRY</text>
+  <rect x="498" y="155" width="230" height="16" rx="3"
+        fill="#0f172a" stroke="#2563eb" stroke-width="1.2"/>
+  <text x="506" y="167" font-family="'Courier New',Courier,monospace"
+        font-size="9" fill="#93c5fd">Manufacturing</text>
+  <text x="720" y="167" font-family="Arial,sans-serif" font-size="9" fill="#475569">&#9662;</text>
+
+  <!-- Field 2: Revenue -->
+  <text x="498" y="184" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="7.5" font-weight="700" fill="#64748b" letter-spacing="0.8">COMPANY REVENUE</text>
+  <rect x="498" y="187" width="230" height="16" rx="3"
+        fill="#0f172a" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="506" y="199" font-family="'Courier New',Courier,monospace"
+        font-size="9" fill="#cbd5e1">$50M &#8211; $250M</text>
+  <text x="720" y="199" font-family="Arial,sans-serif" font-size="9" fill="#475569">&#9662;</text>
+
+  <!-- Field 3: Budget -->
+  <text x="498" y="216" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="7.5" font-weight="700" fill="#64748b" letter-spacing="0.8">PROJECT BUDGET</text>
+  <rect x="498" y="219" width="230" height="16" rx="3"
+        fill="#0f172a" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="506" y="231" font-family="'Courier New',Courier,monospace"
+        font-size="9" fill="#cbd5e1">$25K &#8211; $100K</text>
+  <text x="720" y="231" font-family="Arial,sans-serif" font-size="9" fill="#475569">&#9662;</text>
+
+  <!-- Field 4: Intent -->
+  <text x="498" y="248" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="7.5" font-weight="700" fill="#64748b" letter-spacing="0.8">PROJECT INTENT</text>
+  <rect x="498" y="251" width="230" height="16" rx="3"
+        fill="#0f172a" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="506" y="263" font-family="'Courier New',Courier,monospace"
+        font-size="9" fill="#cbd5e1">Project Engagement</text>
+  <text x="720" y="263" font-family="Arial,sans-serif" font-size="9" fill="#475569">&#9662;</text>
+
+  <!-- Field 5: Challenge (textarea) -->
+  <text x="498" y="280" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="7.5" font-weight="700" fill="#64748b" letter-spacing="0.8">BIGGEST CHALLENGE</text>
+  <rect x="498" y="283" width="230" height="28" rx="3"
+        fill="#0f172a" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="506" y="294" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="8.5" fill="#475569">Finance and Ops aren&#8217;t on the</text>
+  <text x="506" y="305" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="8.5" fill="#475569">same numbers&#8230;</text>
+
+  <!-- Submit button -->
+  <rect x="498" y="323" width="230" height="22" rx="5" fill="#2563eb"/>
+  <text x="613" y="338" text-anchor="middle"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="10.5" font-weight="600" fill="white" letter-spacing="0.3">Send Message</text>
+
+  <!-- Bot protection badges (inside form) -->
+  <rect x="484" y="354" width="90" height="13" rx="3"
+        fill="#0a2015" stroke="#16a34a" stroke-width="0.75"/>
+  <text x="529" y="364" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="7.5" font-weight="600" fill="#4ade80">&#10003; Turnstile</text>
+
+  <rect x="580" y="354" width="80" height="13" rx="3"
+        fill="#1a0a0a" stroke="#b91c1c" stroke-width="0.75"/>
+  <text x="620" y="364" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="7.5" font-weight="600" fill="#f87171">&#8856; Honeypot</text>
+
+  <!-- Qualified badge (outside form) -->
+  <rect x="484" y="374" width="70" height="14" rx="7"
+        fill="#0c2040" stroke="#2563eb" stroke-width="0.75"/>
+  <text x="519" y="384.5" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="7.5" font-weight="600" fill="#60a5fa">Qualified &#10003;</text>
+
+  <!-- ====================== BOTTOM STRIP ====================== -->
+  <rect x="0" y="398" width="860" height="32" fill="#060d1a"/>
+  <line x1="0" y1="398" x2="860" y2="398" stroke="#1e3a5f" stroke-width="0.5"/>
+
+  <!-- Tech badges -->
+  <rect x="20" y="410" width="56" height="13" rx="6" fill="#0f1f3d"/>
+  <text x="48" y="420" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="8" fill="#93c5fd" font-weight="600">Next.js</text>
+
+  <rect x="82" y="410" width="50" height="13" rx="6" fill="#0f1f3d"/>
+  <text x="107" y="420" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="8" fill="#93c5fd" font-weight="600">Resend</text>
+
+  <rect x="138" y="410" width="103" height="13" rx="6" fill="#0f1f3d"/>
+  <text x="189" y="420" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="8" fill="#93c5fd" font-weight="600">Cloudflare Turnstile</text>
+
+  <rect x="248" y="410" width="52" height="13" rx="6" fill="#0a2015"/>
+  <text x="274" y="420" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="8" fill="#4ade80" font-weight="600">Insights</text>
+
+  <!-- Branding -->
+  <text x="840" y="420" text-anchor="end"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="8.5" font-weight="700" fill="#334155" letter-spacing="1.2">ANALYTICAL ANTS</text>
+
+</svg>
