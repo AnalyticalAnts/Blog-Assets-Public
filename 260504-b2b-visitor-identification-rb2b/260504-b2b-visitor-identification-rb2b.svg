@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 430" width="860" height="430">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="860" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#070e1c"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <radialGradient id="leftGlow" cx="210" cy="220" r="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#070e1c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rightGlow" cx="650" cy="220" r="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="topBar" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="cardGlow">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="430" fill="url(#bg)"/>
+  <rect width="860" height="430" fill="url(#leftGlow)"/>
+  <rect width="860" height="430" fill="url(#rightGlow)"/>
+
+  <!-- Top accent bar -->
+  <rect width="860" height="2.5" fill="url(#topBar)"/>
+
+  <!-- Title -->
+  <text x="430" y="32" text-anchor="middle"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="21" font-weight="800" fill="#f1f5f9" letter-spacing="-0.5">
+    How to Identify B2B Website Visitors Without a Form Fill
+  </text>
+  <text x="430" y="52" text-anchor="middle"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="11" fill="#3b82f6" letter-spacing="0.5">
+    B2B Visitor Identification &#183; Analytical Ants
+  </text>
+  <line x1="60" y1="64" x2="800" y2="64" stroke="#1e3a5f" stroke-width="0.75"/>
+
+  <!-- Section labels -->
+  <text x="210" y="82" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="9" font-weight="700" fill="#475569" letter-spacing="4">BEFORE</text>
+  <text x="650" y="82" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="9" font-weight="700" fill="#3b82f6" letter-spacing="4">AFTER</text>
+
+  <!-- Center divider (door style matching design system) -->
+  <line x1="428" y1="70" x2="428" y2="380" stroke="#1e3a5f" stroke-width="1" opacity="0.7"/>
+  <line x1="432" y1="70" x2="432" y2="380" stroke="#1e3a5f" stroke-width="1" opacity="0.7"/>
+  <circle cx="430" cy="232" r="5.5" fill="#0f172a" stroke="#2563eb" stroke-width="1.5"/>
+  <circle cx="430" cy="232" r="2" fill="#3b82f6"/>
+
+  <!-- ====== LEFT: BEFORE — Anonymous Traffic ====== -->
+
+  <!-- Browser frame -->
+  <rect x="68" y="92" width="295" height="175" rx="7" fill="#0a1827" stroke="#1e3040" stroke-width="1.2"/>
+  <rect x="68" y="92" width="295" height="24" rx="7" fill="#0c1f33"/>
+  <rect x="68" y="104" width="295" height="12" fill="#0c1f33"/>
+  <circle cx="86" cy="104" r="4" fill="#162030"/>
+  <circle cx="100" cy="104" r="4" fill="#162030"/>
+  <circle cx="114" cy="104" r="4" fill="#162030"/>
+  <rect x="132" y="99" width="200" height="10" rx="2.5" fill="#080e1a"/>
+  <text x="232" y="107.5" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace" font-size="7" fill="#253040">
+    analyticalants.com/services
+  </text>
+
+  <!-- Anonymous visitor blobs — 6 circles, one highlighted -->
+  <circle cx="122" cy="155" r="22" fill="#111c2b" stroke="#1c2d40" stroke-width="1.2"/>
+  <text x="122" y="163" text-anchor="middle"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="21" fill="#253040">?</text>
+
+  <circle cx="193" cy="148" r="22" fill="#111c2b" stroke="#1c2d40" stroke-width="1.2"/>
+  <text x="193" y="156" text-anchor="middle"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="21" fill="#253040">?</text>
+
+  <circle cx="264" cy="153" r="22" fill="#111c2b" stroke="#1c2d40" stroke-width="1.2"/>
+  <text x="264" y="161" text-anchor="middle"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="21" fill="#253040">?</text>
+
+  <circle cx="143" cy="215" r="22" fill="#111c2b" stroke="#1c2d40" stroke-width="1.2"/>
+  <text x="143" y="223" text-anchor="middle"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="21" fill="#253040">?</text>
+
+  <!-- The one visitor about to be identified — glowing ring -->
+  <circle cx="215" cy="210" r="34" fill="none" stroke="#2563eb" stroke-width="0.6" opacity="0.15" stroke-dasharray="3 4"/>
+  <circle cx="215" cy="210" r="27" fill="none" stroke="#2563eb" stroke-width="0.8" opacity="0.25" stroke-dasharray="3 3"/>
+  <circle cx="215" cy="210" r="22" fill="#0d1f38" stroke="#2563eb" stroke-width="1.8"/>
+  <text x="215" y="218" text-anchor="middle"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="21" fill="#2d5080">?</text>
+
+  <circle cx="284" cy="218" r="22" fill="#111c2b" stroke="#1c2d40" stroke-width="1.2"/>
+  <text x="284" y="226" text-anchor="middle"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="21" fill="#253040">?</text>
+
+  <!-- Caption -->
+  <text x="215" y="265" text-anchor="middle"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="10.5" fill="#334155">
+    Read your case study. Spent 4 minutes. Left.
+  </text>
+  <text x="215" y="280" text-anchor="middle"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#1e2d40">
+    You have no idea who they are.
+  </text>
+
+  <!-- 97% stat box -->
+  <rect x="105" y="293" width="220" height="46" rx="6" fill="#070d1a" stroke="#18243a" stroke-width="1"/>
+  <text x="215" y="320" text-anchor="middle"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="30" font-weight="800" fill="#334155">97%</text>
+  <text x="215" y="333" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace" font-size="8" fill="#253040" letter-spacing="2">NEVER FILL A FORM</text>
+
+  <!-- No contact badge -->
+  <rect x="145" y="348" width="140" height="15" rx="7" fill="#1a0808" stroke="#7f1d1d" stroke-width="0.75"/>
+  <text x="215" y="359" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace" font-size="8.5" font-weight="600" fill="#f87171">
+    Anonymous &#183; No Contact
+  </text>
+
+  <!-- ====== CENTER: RB2B Arrow ====== -->
+
+  <line x1="444" y1="224" x2="485" y2="224" stroke="url(#arrowGrad)" stroke-width="2.5"/>
+  <polygon points="485,218 497,224 485,230" fill="#3b82f6"/>
+
+  <text x="466" y="214" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace" font-size="7.5" fill="#1e3a5f">IP&#8594;LinkedIn</text>
+
+  <rect x="441" y="231" width="62" height="15" rx="4" fill="#0c1929" stroke="#2563eb" stroke-width="0.75"/>
+  <text x="472" y="241.5" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace" font-size="9" font-weight="700" fill="#60a5fa">RB2B</text>
+
+  <!-- ====== RIGHT: AFTER — Identified Contact ====== -->
+
+  <!-- Profile card -->
+  <rect x="508" y="92" width="284" height="185" rx="9"
+        fill="#0c1929" stroke="#1e3a8a" stroke-width="1.5" filter="url(#cardGlow)"/>
+  <rect x="508" y="92" width="284" height="28" rx="9" fill="#1e3a8a"/>
+  <rect x="508" y="106" width="284" height="14" fill="#1e3a8a"/>
+  <text x="650" y="110.5" text-anchor="middle"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="600"
+        fill="#bfdbfe" letter-spacing="0.5">IDENTIFIED VISITOR</text>
+
+  <!-- Avatar -->
+  <circle cx="545" cy="162" r="24" fill="#1d4ed8" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="545" y="170" text-anchor="middle"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="700" fill="#dbeafe">S</text>
+
+  <!-- Name / title / company -->
+  <text x="578" y="148"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="800" fill="#f1f5f9">
+    Sarah Chen
+  </text>
+  <text x="578" y="163"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="10.5" fill="#60a5fa">
+    VP of Operations
+  </text>
+  <text x="578" y="177"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#64748b">
+    Acme Manufacturing &#183; $150M
+  </text>
+
+  <line x1="522" y1="193" x2="778" y2="193" stroke="#1e3a5f" stroke-width="0.75"/>
+
+  <!-- LinkedIn -->
+  <text x="522" y="208"
+        font-family="'Courier New',Courier,monospace" font-size="8" font-weight="700" fill="#475569" letter-spacing="1">LINKEDIN</text>
+  <text x="522" y="221"
+        font-family="'Courier New',Courier,monospace" font-size="8.5" fill="#93c5fd">
+    linkedin.com/in/sarah-chen-ops
+  </text>
+
+  <!-- Email -->
+  <text x="522" y="237"
+        font-family="'Courier New',Courier,monospace" font-size="8" font-weight="700" fill="#475569" letter-spacing="1">EMAIL</text>
+  <text x="522" y="250"
+        font-family="'Courier New',Courier,monospace" font-size="8.5" fill="#93c5fd">
+    s.chen@acme-manufacturing.com
+  </text>
+
+  <!-- Identified badge -->
+  <rect x="508" y="259" width="92" height="14" rx="7" fill="#0a2015" stroke="#16a34a" stroke-width="0.75"/>
+  <text x="554" y="269.5" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace" font-size="8" font-weight="600" fill="#4ade80">
+    Identified &#10003;
+  </text>
+
+  <!-- Pages signal -->
+  <text x="612" y="265"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#334155">
+    Services &#183; Case Studies &#183; 4m 12s
+  </text>
+
+  <!-- Outreach prompt card -->
+  <rect x="508" y="284" width="284" height="58" rx="6" fill="#0e1f38" stroke="#1e3a5f" stroke-width="0.75"/>
+  <text x="518" y="300"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="9.5" fill="#60a5fa">
+    &#8220;Sarah, I noticed you spent time on our
+  </text>
+  <text x="518" y="314"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="9.5" fill="#60a5fa">
+    manufacturing case studies this week.
+  </text>
+  <text x="518" y="328"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="9.5" fill="#4a7aaa">
+    Here is how we have handled that situation.&#8221;
+  </text>
+
+  <!-- Outreach ready badge -->
+  <rect x="508" y="350" width="100" height="14" rx="7" fill="#0c2040" stroke="#2563eb" stroke-width="0.75"/>
+  <text x="558" y="360.5" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace" font-size="8" font-weight="600" fill="#60a5fa">
+    Outreach Ready &#10003;
+  </text>
+
+  <!-- ====== BOTTOM STRIP ====== -->
+  <rect x="0" y="392" width="860" height="38" fill="#060d1a"/>
+  <line x1="0" y1="392" x2="860" y2="392" stroke="#1e3a5f" stroke-width="0.5"/>
+
+  <rect x="20" y="404" width="68" height="14" rx="6" fill="#0f1f3d"/>
+  <text x="54" y="414.5" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace" font-size="8.5" fill="#93c5fd" font-weight="600">Marketing</text>
+
+  <rect x="94" y="404" width="42" height="14" rx="6" fill="#0f1f3d"/>
+  <text x="115" y="414.5" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace" font-size="8.5" fill="#93c5fd" font-weight="600">RB2B</text>
+
+  <rect x="142" y="404" width="52" height="14" rx="6" fill="#0f1f3d"/>
+  <text x="168" y="414.5" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace" font-size="8.5" fill="#93c5fd" font-weight="600">Next.js</text>
+
+  <rect x="200" y="404" width="52" height="14" rx="6" fill="#0a2015"/>
+  <text x="226" y="414.5" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace" font-size="8.5" fill="#4ade80" font-weight="600">Insights</text>
+
+  <text x="840" y="415" text-anchor="end"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="9" font-weight="700" fill="#334155" letter-spacing="1.5">ANALYTICAL ANTS</text>
+
+</svg>
