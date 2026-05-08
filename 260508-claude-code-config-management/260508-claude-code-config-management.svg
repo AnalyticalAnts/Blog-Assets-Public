@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 440">
+
+  <!-- Background -->
+  <rect width="860" height="440" fill="#0f0f0f"/>
+
+  <!-- Subtle background grid -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="860" height="440" fill="url(#grid)" opacity="0.6"/>
+
+  <!-- Left glow accent -->
+  <ellipse cx="120" cy="220" rx="180" ry="180" fill="#c9a227" opacity="0.04"/>
+
+  <!-- === LEFT TEXT PANEL === -->
+
+  <!-- Eyebrow label -->
+  <rect x="52" y="64" width="4" height="18" rx="2" fill="#c9a227"/>
+  <text x="64" y="77" fill="#c9a227" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" letter-spacing="2.5">CLAUDE CODE</text>
+
+  <!-- Main headline -->
+  <text x="52" y="138" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="52" letter-spacing="-1">Private.</text>
+  <text x="52" y="194" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="52" letter-spacing="-1">Portable.</text>
+
+  <!-- Sub text -->
+  <text x="52" y="230" fill="#888888" font-family="Arial, Helvetica, sans-serif" font-size="13">Configs that survive machine wipes.</text>
+  <text x="52" y="250" fill="#888888" font-family="Arial, Helvetica, sans-serif" font-size="13">Prompts that never leak to your repo.</text>
+
+  <!-- Feature pills -->
+  <rect x="52" y="270" width="122" height="28" rx="14" fill="#1c1c1c" stroke="#2e2e2e" stroke-width="1"/>
+  <text x="113" y="289" text-anchor="middle" fill="#bbbbbb" font-family="Arial, Helvetica, sans-serif" font-size="11">2-layer model</text>
+
+  <rect x="184" y="270" width="88" height="28" rx="14" fill="#1c1c1c" stroke="#2e2e2e" stroke-width="1"/>
+  <text x="228" y="289" text-anchor="middle" fill="#bbbbbb" font-family="Arial, Helvetica, sans-serif" font-size="11">Zero leaks</text>
+
+  <rect x="282" y="270" width="98" height="28" rx="14" fill="#1c1c1c" stroke="#2e2e2e" stroke-width="1"/>
+  <text x="331" y="289" text-anchor="middle" fill="#bbbbbb" font-family="Arial, Helvetica, sans-serif" font-size="11">Any machine</text>
+
+  <!-- Divider -->
+  <line x1="52" y1="320" x2="400" y2="320" stroke="#242424" stroke-width="1"/>
+
+  <!-- Bottom stat -->
+  <text x="52" y="348" fill="#666666" font-family="Arial, Helvetica, sans-serif" font-size="12">global rules · project context · skills</text>
+  <text x="52" y="382" fill="#c9a227" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="30">One private repo.</text>
+  <text x="52" y="408" fill="#555555" font-family="Arial, Helvetica, sans-serif" font-size="12">synced to every machine on demand</text>
+
+  <!-- === RIGHT PANEL: Terminal / Directory Tree === -->
+
+  <!-- Terminal window body -->
+  <rect x="464" y="32" width="364" height="376" rx="10" fill="#141414" stroke="#2a2a2a" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect x="464" y="32" width="364" height="30" rx="10" fill="#1e1e1e"/>
+  <rect x="464" y="48" width="364" height="14" fill="#1e1e1e"/>
+  <!-- Traffic lights -->
+  <circle cx="489" cy="47" r="5" fill="#3a3a3a"/>
+  <circle cx="506" cy="47" r="5" fill="#3a3a3a"/>
+  <circle cx="523" cy="47" r="5" fill="#3a3a3a"/>
+  <!-- Window title -->
+  <text x="646" y="52" text-anchor="middle" fill="#4a4a4a" font-family="Arial, Helvetica, sans-serif" font-size="10">claude-configs — private repo</text>
+
+  <!-- === DIRECTORY TREE === -->
+
+  <!-- Root -->
+  <text x="488" y="96" fill="#888888" font-family="'Courier New', Courier, monospace" font-size="12.5">claude-configs/</text>
+
+  <!-- _Global folder -->
+  <text x="488" y="120" fill="#555555" font-family="'Courier New', Courier, monospace" font-size="12">├──</text>
+  <text x="520" y="120" fill="#c9a227" font-family="'Courier New', Courier, monospace" font-size="12">_Global/</text>
+
+  <!-- _Global/CLAUDE.md + arrow -->
+  <text x="488" y="142" fill="#555555" font-family="'Courier New', Courier, monospace" font-size="12">│   └──</text>
+  <text x="548" y="142" fill="#cccccc" font-family="'Courier New', Courier, monospace" font-size="12">CLAUDE.md</text>
+  <line x1="622" y1="142" x2="658" y2="142" stroke="#c9a227" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <polygon points="658,138 666,142 658,146" fill="#c9a227"/>
+  <text x="670" y="146" fill="#666666" font-family="'Courier New', Courier, monospace" font-size="10">~/.claude/</text>
+
+  <!-- spacer -->
+  <text x="488" y="162" fill="#444444" font-family="'Courier New', Courier, monospace" font-size="12">│</text>
+
+  <!-- my-project folder -->
+  <text x="488" y="184" fill="#555555" font-family="'Courier New', Courier, monospace" font-size="12">└──</text>
+  <text x="520" y="184" fill="#c9a227" font-family="'Courier New', Courier, monospace" font-size="12">my-project/</text>
+
+  <!-- my-project/.claude + arrow -->
+  <text x="488" y="206" fill="#555555" font-family="'Courier New', Courier, monospace" font-size="12">    └──</text>
+  <text x="548" y="206" fill="#cccccc" font-family="'Courier New', Courier, monospace" font-size="12">.claude/</text>
+  <line x1="614" y1="206" x2="658" y2="206" stroke="#c9a227" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <polygon points="658,202 666,206 658,210" fill="#c9a227"/>
+  <text x="670" y="210" fill="#666666" font-family="'Courier New', Courier, monospace" font-size="10">{repo}/.claude/</text>
+
+  <!-- .claude/CLAUDE.md -->
+  <text x="488" y="228" fill="#555555" font-family="'Courier New', Courier, monospace" font-size="12">        ├──</text>
+  <text x="576" y="228" fill="#888888" font-family="'Courier New', Courier, monospace" font-size="12">CLAUDE.md</text>
+
+  <!-- .claude/commands/ -->
+  <text x="488" y="250" fill="#555555" font-family="'Courier New', Courier, monospace" font-size="12">        ├──</text>
+  <text x="576" y="250" fill="#888888" font-family="'Courier New', Courier, monospace" font-size="12">commands/</text>
+
+  <!-- commands children -->
+  <text x="488" y="269" fill="#444444" font-family="'Courier New', Courier, monospace" font-size="11">        │   ├──</text>
+  <text x="592" y="269" fill="#666666" font-family="'Courier New', Courier, monospace" font-size="11">blog.md</text>
+  <text x="488" y="286" fill="#444444" font-family="'Courier New', Courier, monospace" font-size="11">        │   └──</text>
+  <text x="592" y="286" fill="#666666" font-family="'Courier New', Courier, monospace" font-size="11">marketing.md</text>
+
+  <!-- .claude/context/ -->
+  <text x="488" y="308" fill="#555555" font-family="'Courier New', Courier, monospace" font-size="12">        └──</text>
+  <text x="576" y="308" fill="#888888" font-family="'Courier New', Courier, monospace" font-size="12">context/</text>
+
+  <!-- context children -->
+  <text x="488" y="327" fill="#444444" font-family="'Courier New', Courier, monospace" font-size="11">            ├──</text>
+  <text x="605" y="327" fill="#666666" font-family="'Courier New', Courier, monospace" font-size="11">icp.md</text>
+  <text x="488" y="344" fill="#444444" font-family="'Courier New', Courier, monospace" font-size="11">            └──</text>
+  <text x="605" y="344" fill="#666666" font-family="'Courier New', Courier, monospace" font-size="11">design-system.md</text>
+
+  <!-- Footer rule inside terminal -->
+  <line x1="476" y1="362" x2="816" y2="362" stroke="#1e1e1e" stroke-width="1"/>
+  <text x="646" y="381" text-anchor="middle" fill="#444444" font-family="'Courier New', Courier, monospace" font-size="10">.claude/ → .gitignore  ·  never committed to project repo</text>
+
+  <!-- Analytical Ants branding -->
+  <text x="52" y="432" fill="#3a3a3a" font-family="Arial, Helvetica, sans-serif" font-size="11">analyticalants.com</text>
+
+</svg>
